@@ -13,8 +13,8 @@ This repository now hosts a static GitHub Pages site for a complete Chinese lear
 
 ## Files
 
-- `/home/runner/work/hello-world/hello-world/index.html` — main learning plan page
-- `/home/runner/work/hello-world/hello-world/styles.css` — page styling
+- `index.html` — main learning plan page
+- `styles.css` — page styling
 
 ## Usage
 
