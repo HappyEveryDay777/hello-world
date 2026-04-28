@@ -620,3 +620,89 @@ a {
     page-break-after: auto;
   }
 }
+
+
+/* curriculum-collection-and-print-v2 */
+.directory-table-wrap {
+  overflow-x: auto;
+}
+
+.directory-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.directory-table th,
+.directory-table td {
+  padding: 0.9rem 1rem;
+  border: 1px solid #e2e8f0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.directory-table thead th {
+  background: #eff6ff;
+  color: #1e3a8a;
+}
+
+.directory-table tbody tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+.submission-table td {
+  min-width: 110px;
+}
+
+.print-sheet--directory .print-sheet__body,
+.print-sheet--back-cover .print-sheet__body {
+  min-height: 520px;
+}
+
+.print-sheet__body--back-cover {
+  background: linear-gradient(180deg, #ede9fe, #f8fafc);
+}
+
+.print-page-break {
+  height: 1px;
+  margin: 0;
+  border: 0;
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 14mm 12mm 16mm;
+  }
+
+  body.print-template-body .print-sheet {
+    break-after: page;
+    page-break-after: always;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    min-height: calc(297mm - 30mm);
+  }
+
+  body.print-template-body .print-sheet__header,
+  body.print-template-body .print-sheet__footerline {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.print-template-body .print-sheet__body {
+    padding: 10mm 0;
+    min-height: calc(297mm - 58mm);
+  }
+
+  body.print-template-body .print-sheet--cover .print-sheet__body,
+  body.print-template-body .print-sheet--back-cover .print-sheet__body {
+    min-height: calc(297mm - 40mm);
+  }
+
+  body.print-template-body .print-page-break {
+    break-after: page;
+    page-break-after: always;
+  }
+}
