@@ -498,3 +498,125 @@ a {
   margin: 0;
   padding-left: 1.2rem;
 }
+
+
+/* curriculum-collection-and-print */
+.resource-hero--teacher-collection {
+  background: linear-gradient(135deg, rgba(120, 53, 15, 0.96), rgba(109, 40, 217, 0.9));
+}
+
+.resource-hero--workbook-collection {
+  background: linear-gradient(135deg, rgba(5, 150, 105, 0.96), rgba(37, 99, 235, 0.9));
+}
+
+.resource-hero--print-template {
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.96), rgba(79, 70, 229, 0.9));
+}
+
+.resource-card__meta {
+  color: var(--accent-2);
+  font-weight: 700;
+}
+
+.print-preview-card {
+  overflow: hidden;
+}
+
+.print-sheet {
+  margin-bottom: 1.5rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: var(--shadow);
+}
+
+.print-sheet__header,
+.print-sheet__footerline,
+.print-sheet__meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.print-sheet__header,
+.print-sheet__footerline {
+  padding: 1rem 1.2rem;
+  color: #334155;
+}
+
+.print-sheet__header {
+  border-bottom: 1px solid #e2e8f0;
+  font-weight: 700;
+}
+
+.print-sheet__footerline {
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.92rem;
+}
+
+.print-sheet__body {
+  min-height: 360px;
+  padding: 2rem 1.4rem;
+}
+
+.print-sheet__body--cover {
+  display: flex;
+  min-height: 460px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(180deg, #fff7ed, #eef2ff);
+}
+
+.print-sheet__eyebrow {
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-2);
+}
+
+.print-sheet__subtitle {
+  max-width: 520px;
+  color: var(--muted);
+}
+
+@media print {
+  body.print-template-body {
+    background: #ffffff;
+  }
+
+  body.print-template-body .lesson-hero,
+  body.print-template-body .lesson-card:not(.print-preview-card),
+  body.print-template-body .site-footer {
+    display: none !important;
+  }
+
+  body.print-template-body .lesson-page {
+    padding: 0;
+    max-width: none;
+  }
+
+  body.print-template-body .print-preview-card {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+  }
+
+  body.print-template-body .print-sheet {
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    page-break-after: always;
+    min-height: 100vh;
+  }
+
+  body.print-template-body .print-sheet:last-child {
+    page-break-after: auto;
+  }
+}
