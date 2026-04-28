@@ -5,30 +5,31 @@ This repository hosts a static GitHub Pages site for a complete 24-week Chinese 
 ## What is included
 
 - A curriculum hub in `index.html`
-- 12 fully expanded chapter pages in `chapters/`
+- 12 chapter overview pages in `chapters/`
+- 12 formal lesson-plan pages in `lesson-plans/`
+- 12 bilingual teaching-script pages in `bilingual-scripts/`
+- 12 exercise pages with answer guidance in `exercises/`
 - Shared responsive styling in `styles.css`
-- Chinese-first lesson structure with English support notes for each chapter
 
 ## Curriculum structure
 
 - 4 learning phases across 24 weeks
 - 12 chapters covering pronunciation, vocabulary, grammar, conversation, reading, characters, and culture
-- Each chapter includes:
-  - learning goals
-  - target outcomes
-  - core vocabulary
-  - sentence patterns
-  - grammar focus
-  - speaking, reading, and writing practice
-  - review tasks and output tasks
-  - English explanation guidance
+- Each chapter now has 4 linked resource types:
+  - chapter overview page
+  - formal lesson plan
+  - bilingual teaching script
+  - exercise page
 
 ## Main files
 
 - `index.html` — curriculum overview and chapter hub
-- `styles.css` — shared styles for the curriculum site
-- `chapters/` — detailed lesson pages for Chapters 1–12
+- `chapters/` — chapter overview pages for Chapters 1–12
+- `lesson-plans/` — formal lesson-plan pages for Chapters 1–12
+- `bilingual-scripts/` — Chinese-English classroom teaching scripts for Chapters 1–12
+- `exercises/` — practice pages with review tasks and answer guidance
+- `styles.css` — shared styles for the entire curriculum site
 
 ## Usage
 
-Open `index.html` locally in a browser or publish the repository with GitHub Pages.
+Open `/home/runner/work/hello-world/hello-world/index.html` locally in a browser or publish the repository with GitHub Pages.

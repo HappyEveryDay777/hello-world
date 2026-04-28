@@ -343,3 +343,92 @@ a {
     padding: 0.8rem 1rem;
   }
 }
+
+
+.resource-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.resource-card {
+  padding: 1.1rem;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, #ffffff, #f8fafc);
+}
+
+.resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.9rem;
+}
+
+.mini-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  color: var(--accent-2);
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.resource-hero--plan {
+  background: linear-gradient(135deg, rgba(14, 116, 144, 0.95), rgba(79, 70, 229, 0.92));
+}
+
+.resource-hero--script {
+  background: linear-gradient(135deg, rgba(30, 64, 175, 0.95), rgba(147, 51, 234, 0.92));
+}
+
+.resource-hero--exercise {
+  background: linear-gradient(135deg, rgba(21, 128, 61, 0.95), rgba(8, 145, 178, 0.9));
+}
+
+.schedule-grid,
+.script-list,
+.exercise-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.schedule-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.schedule-card,
+.script-card,
+.exercise-card {
+  padding: 1.1rem;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: #ffffff;
+}
+
+.schedule-card__time {
+  display: inline-flex;
+  margin-bottom: 0.75rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  background: #ede9fe;
+  color: var(--accent-2);
+  font-weight: 700;
+}
+
+.script-columns {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.answer-box {
+  padding: 1.1rem;
+  border-radius: 18px;
+  border: 1px solid #bfdbfe;
+  background: #eff6ff;
+}
