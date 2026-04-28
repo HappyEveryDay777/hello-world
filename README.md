@@ -1,90 +1,56 @@
-# Welcome to GitHub
+# Chinese Learning Curriculum Website
 
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
+This repository hosts a static GitHub Pages site for a complete 24-week Chinese learning curriculum for international beginners.
 
-## Repositories
+## What is included
 
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
+- A curriculum hub in `index.html`
+- 12 chapter home/index pages in `chapter-indexes/`
+- 12 chapter overview pages in `chapters/`
+- 12 formal lesson-plan pages in `lesson-plans/`
+- 12 bilingual teaching-script pages in `bilingual-scripts/`
+- 12 exercise pages with answer guidance in `exercises/`
+- 12 teacher handbook PDF structure draft pages in `teacher-handbook-pdf/`
+- A teacher handbook collection home in `teacher-handbook-pdf/index.html`
+- A full-set teacher handbook table of contents in `teacher-handbook-pdf/master-table-of-contents.html`
+- 12 student workbook pages in `student-workbooks/`
+- A student workbook collection home in `student-workbooks/index.html`
+- A workbook submission record summary in `student-workbooks/submission-record-summary.html`
+- A print-ready unified cover/header/footer/back-cover template in `print-templates/`
+- Shared responsive styling in `styles.css`
 
-This repository contains three important files: The HTML code for your first website on GitHub, the CSS stylesheet that decorates your website with colors and fonts, and the **README** file. It also contains an image folder, with one image file.
+## Curriculum structure
 
-## Describe your project
+- 4 learning phases across 24 weeks
+- 12 chapters covering pronunciation, vocabulary, grammar, conversation, reading, characters, and culture
+- Each chapter now has 7 linked resource types:
+  - chapter home / directory page
+  - chapter overview page
+  - formal lesson plan
+  - bilingual teaching script
+  - exercise page
+  - teacher handbook PDF structure draft
+  - student workbook
+- The site also now includes 5 collection-level resources:
+  - teacher handbook collection home
+  - teacher handbook full-set table of contents
+  - student workbook collection home
+  - student workbook submission record summary
+  - print-ready unified cover/header/footer/back-cover template
 
-You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
+## Main files
 
-[Learn more about READMEs](https://help.github.com/en/articles/about-readmes)
+- `index.html` — curriculum overview and chapter hub
+- `chapter-indexes/` — per-chapter landing and directory pages
+- `chapters/` — chapter overview pages for Chapters 1–12
+- `lesson-plans/` — formal lesson-plan pages for Chapters 1–12
+- `bilingual-scripts/` — Chinese-English classroom teaching scripts for Chapters 1–12
+- `exercises/` — practice pages with review tasks and answer guidance
+- `teacher-handbook-pdf/` — export-friendly teacher handbook structure drafts plus the overall teacher handbook home and full-set table of contents
+- `student-workbooks/` — student-facing workbook and submission pages plus the overall workbook directory and submission record summary
+- `print-templates/` — print-ready unified cover, header, footer, back-cover, and inner-page template
+- `styles.css` — shared styles for the entire curriculum site
 
-## Your first website
+## Usage
 
-**GitHub Pages** is a free and easy way to create a website using the code that lives in your GitHub repositories. You can use GitHub Pages to build a portfolio of your work, create a personal website, or share a fun project that you coded with the world. GitHub Pages is automatically enabled in this repository, but when you create new repositories in the future, the steps to launch a GitHub Pages website will be slightly different.
-
-[Learn more about GitHub Pages](https://pages.github.com/)
-
-## Rename this repository to publish your site
-
-We've already set-up a GitHub Pages website for you, based on your personal username. This repository is called `hello-world`, but you'll rename it to: `username.github.io`, to match your website's URL address. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
-
-Let's get started! To update this repository’s name, click the `Settings` tab on this page. This will take you to your repository’s settings page. 
-
-![repo-settings-image](https://user-images.githubusercontent.com/18093541/63130482-99e6ad80-bf88-11e9-99a1-d3cf1660b47e.png)
-
-Under the **Repository Name** heading, type: `username.github.io`, where username is your username on GitHub. Then click **Rename**—and that’s it. When you’re done, click your repository name or browser’s back button to return to this page.
-
-<img width="1039" alt="rename_screenshot" src="https://user-images.githubusercontent.com/18093541/63129466-956cc580-bf85-11e9-92d8-b028dd483fa5.png">
-
-Once you click **Rename**, your website will automatically be published at: https://your-username.github.io/. The HTML file—called `index.html`—is rendered as the home page and you'll be making changes to this file in the next step.
-
-Congratulations! You just launched your first GitHub Pages website. It's now live to share with the entire world
-
-## Making your first edit
-
-When you make any change to any file in your project, you’re making a **commit**. If you fix a typo, update a filename, or edit your code, you can add it to GitHub as a commit. Your commits represent your project’s entire history—and they’re all saved in your project’s repository.
-
-With each commit, you have the opportunity to write a **commit message**, a short, meaningful comment describing the change you’re making to a file. So you always know exactly what changed, no matter when you return to a commit.
-
-## Practice: Customize your first GitHub website by writing HTML code
-
-Want to edit the site you just published? Let’s practice commits by introducing yourself in your `index.html` file. Don’t worry about getting it right the first time—you can always build on your introduction later.
-
-Let’s start with this template:
-
-```
-<p>Hello World! I’m [username]. This is my website!</p>
-```
-
-To add your introduction, copy our template and click the edit pencil icon at the top right hand corner of the `index.html` file.
-
-<img width="997" alt="edit-this-file" src="https://user-images.githubusercontent.com/18093541/63131820-0794d880-bf8d-11e9-8b3d-c096355e9389.png">
-
-
-Delete this placeholder line:
-
-```
-<p>Welcome to your first GitHub Pages website!</p>
-```
-
-Then, paste the template to line 15 and fill in the blanks.
-
-<img width="1032" alt="edit-githuboctocat-index" src="https://user-images.githubusercontent.com/18093541/63132339-c3a2d300-bf8e-11e9-8222-59c2702f6c42.png">
-
-
-When you’re done, scroll down to the `Commit changes` section near the bottom of the edit page. Add a short message explaining your change, like "Add my introduction", then click `Commit changes`.
-
-
-<img width="1030" alt="add-my-username" src="https://user-images.githubusercontent.com/18093541/63131801-efbd5480-bf8c-11e9-9806-89273f027d16.png">
-
-Once you click `Commit changes`, your changes will automatically be published on your GitHub Pages website. Refresh the page to see your new changes live in action.
-
-:tada: You just made your first commit! :tada:
-
-## Extra Credit: Keep on building!
-
-Change the placeholder Octocat gif on your GitHub Pages website by [creating your own personal Octocat emoji](https://myoctocat.com/build-your-octocat/) or [choose a different Octocat gif from our logo library here](https://octodex.github.com/). Add that image to line 12 of your `index.html` file, in place of the `<img src=` link.
-
-Want to add even more code and fun styles to your GitHub Pages website? [Follow these instructions](https://github.com/github/personal-website) to build a fully-fledged static website.
-
-![octocat](./images/create-octocat.png)
-
-## Everything you need to know about GitHub
-
-Getting started is the hardest part. If there’s anything you’d like to know as you get started with GitHub, try searching [GitHub Help](https://help.github.com). Our documentation has tutorials on everything from changing your repository settings to configuring GitHub from your command line.
+Open `/home/runner/work/hello-world/hello-world/index.html` locally in a browser or publish the repository with GitHub Pages.
