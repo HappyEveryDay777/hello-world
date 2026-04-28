@@ -432,3 +432,69 @@ a {
   border: 1px solid #bfdbfe;
   background: #eff6ff;
 }
+
+
+/* curriculum-extra-resources */
+.resource-card__badge {
+  display: inline-flex;
+  margin: 0 0 0.8rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  background: #ede9fe;
+  color: var(--accent-2);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.resource-hero--index {
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.96), rgba(29, 78, 216, 0.9));
+}
+
+.resource-hero--handbook {
+  background: linear-gradient(135deg, rgba(180, 83, 9, 0.96), rgba(190, 24, 93, 0.9));
+}
+
+.resource-hero--workbook {
+  background: linear-gradient(135deg, rgba(22, 101, 52, 0.96), rgba(8, 145, 178, 0.9));
+}
+
+.path-grid,
+.toc-grid,
+.page-flow-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.path-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.toc-grid,
+.page-flow-grid {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.path-card,
+.page-flow-card,
+.checklist-box {
+  padding: 1.1rem;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: #ffffff;
+}
+
+.path-card__step,
+.page-flow-card__label {
+  display: inline-flex;
+  margin-bottom: 0.75rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  background: #fef3c7;
+  color: #92400e;
+  font-weight: 700;
+}
+
+.toc-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
